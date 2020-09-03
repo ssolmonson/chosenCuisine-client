@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 import axios from 'axios'
 
 import apiUrl from '../../apiConfig'
-import RestaurantForm from '../RestaurantForm/RestaurantForm'
+import RestaurantForm from '../Restaurant/RestaurantForm'
 // import messages from '../AutoDismissAlert/messages'
 
 const RestaurantEdit = props => {
