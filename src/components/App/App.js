@@ -5,6 +5,9 @@ import AuthenticatedRoute from '../AuthenticatedRoute/AuthenticatedRoute'
 import AutoDismissAlert from '../AutoDismissAlert/AutoDismissAlert'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
+import Restaurant from '../Restaurant/Restaurant'
+import RestaurantCreate from '../Restaurant/RestaurantCreate'
+import RestaurantEdit from '../Restaurant/RestaurantEdit'
 import SignUp from '../SignUp/SignUp'
 import SignIn from '../SignIn/SignIn'
 import SignOut from '../SignOut/SignOut'
@@ -57,6 +60,15 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} path='/change-password' render={() => (
             <ChangePassword msgAlert={this.msgAlert} user={user} />
+          )} />
+          <AuthenticatedRoute user={user} exact path='/restaurants/:id' render={({ match }) => (
+            <Restaurant msgAlert={this.msgAlert} user={user} match={match} />
+          )} />
+          <AuthenticatedRoute user={user} exact path='/restaurants/:id/edit' render={({ match }) => (
+            <RestaurantEdit msgAlert={this.msgAlert} user={user} match={match} />
+          )} />
+          <AuthenticatedRoute user={user} exact path='/restaurants-create' render={() => (
+            <RestaurantCreate msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>
