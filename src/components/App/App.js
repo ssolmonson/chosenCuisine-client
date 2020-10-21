@@ -6,6 +6,7 @@ import AutoDismissAlert from '../AutoDismissAlert/AutoDismissAlert'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
 import Restaurant from '../Restaurant/Restaurant'
+import Restaurants from '../Restaurant/Restaurants'
 import RestaurantCreate from '../Restaurant/RestaurantCreate'
 import RestaurantEdit from '../Restaurant/RestaurantEdit'
 import SignUp from '../SignUp/SignUp'
@@ -69,6 +70,9 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} exact path='/restaurants-create' render={() => (
             <RestaurantCreate msgAlert={this.msgAlert} user={user} />
+          )} />
+          <AuthenticatedRoute user={user} exact path='/restaurants' render={() => (
+            <Restaurants msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>
