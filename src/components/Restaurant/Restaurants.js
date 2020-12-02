@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-import apiUrl from '../../apiConfi'
+import apiUrl from '../../apiConfig'
 
 const Restaurants = (props, { match }) => {
   const [restaurants, setRestaurants] = useState([])
@@ -34,7 +34,7 @@ const Restaurants = (props, { match }) => {
       </div>
       <div>
         <Link to='/restaurants-create'>
-          <button>Enter a Restaurant</button>
+          <button>Enter a restaurant</button>
         </Link>
       </div>
     </div>
