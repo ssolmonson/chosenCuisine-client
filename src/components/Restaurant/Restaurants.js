@@ -8,7 +8,13 @@ const Restaurants = (props, { match }) => {
   const [restaurants, setRestaurants] = useState([])
 
   useEffect(() => {
-    axios(`${apiUrl}/restaurants`)
+    axios({
+      url: `${apiUrl}/restaurants`,
+      method: 'GET',
+      headers: {
+        Authorization: `Bearer ${props.user.token}`
+      }
+    })
       .then(res => setRestaurants(res.data.restaurants))
       .catch(error => {
         props.msgAlert({
