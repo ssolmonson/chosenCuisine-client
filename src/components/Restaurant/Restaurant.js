@@ -59,8 +59,8 @@ const Restaurant = props => {
   return (
     <div>
       <h4>{restaurant.title}</h4>
-      <p>Description: {restaurant.description}</p>
-      <p>Category: {restaurant.category}</p>
+      <p>Description: {restaurant.city}, {restaurant.state}</p>
+      <p>Category: {restaurant.foodtype}</p>
       <button onClick={destroy}>Delete Restaurant</button>
       <Link to={`/restaurants/${props.match.params.id}/edit`}>
         <button>Edit</button>
