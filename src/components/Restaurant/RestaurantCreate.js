@@ -8,7 +8,7 @@ import messages from '../AutoDismissAlert/messages'
 
 // Utilizing the Restaurant Form, this will handle sending a POST request to create a Restaurant
 const RestaurantCreate = props => {
-  const [restaurant, setRestaurant] = useState({ title: '', description: '', category: 'Legs' })
+  const [restaurant, setRestaurant] = useState({ title: '', description: '', category: 'American' })
   const [createdRestaurantId, setCreatedRestaurantId] = useState(null)
 
   const handleChange = event => {
