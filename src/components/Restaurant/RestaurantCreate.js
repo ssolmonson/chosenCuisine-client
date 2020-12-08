@@ -63,3 +63,5 @@ const RestaurantCreate = props => {
 }
 
 export default RestaurantCreate
+
+// Thought to use a modal to enter a restaurant

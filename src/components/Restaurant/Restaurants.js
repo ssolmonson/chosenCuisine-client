@@ -48,3 +48,6 @@ const Restaurants = (props, { match }) => {
 }
 
 export default Restaurants
+
+// When listing restaurants, possibly look to switch to a details button on each restaurant
+// that would reveal the address and foodtype. The name and city/state would always be displayed in this case
