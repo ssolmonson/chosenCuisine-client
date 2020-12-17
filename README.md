@@ -7,7 +7,7 @@ An application to help track workouts and randomize a specific group of exercise
 ## Important Links
 
 -  [Swolercise API Repo](https://github.com/ssolmonson/chosenCuisine-api)
--  [Deployed Client]
+-  [Deployed Client](https://github.com/ssolmonson/chosenCuisine-client)
 -  [Deployed API]
 -  [GitHub](https://github.com/ssolmonson)
 -  [LinkedIn](https://www.linkedin.com/in/scottsolmonson/)
