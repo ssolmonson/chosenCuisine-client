@@ -1,6 +1,6 @@
 # Chosen Cuisine README
 
-An application to help track workouts and randomize a specific group of exercises when you just aren't sure what to do.
+An application used to keep track of restaurants that you desire to dine at. This will allow users to view the location of their restaurant as well as rate the place, say after a dining there.
 
 ![Homepage]
 
@@ -14,7 +14,7 @@ An application to help track workouts and randomize a specific group of exercise
 
 ### Planning Story
 
-My Dad's thought while watching the phantom gourmet to have an easy to use app in order to make keept track of restaurants to go to.
+My Dad's thought while watching the phantom gourmet to have an easy to use app in order to keep track of restaurants to go to. Expanding on this thought I decided to work on including a mapped location for clarity and use a rating system.
 
 ### User Stories:
 
@@ -78,3 +78,7 @@ My Dad's thought while watching the phantom gourmet to have an easy to use app i
 ![Catalog of Routes]
 
 ##### Future Goals:
+
+- Include a dynamic map integration, which would utilize a more interactive map.
+- Raiting system
+- Expand on the rating system: Create a new resource where ratings will be tied to one restaurant but will be able to be viewed by any user. Similar to reviews on a product, or sites like YELP.
