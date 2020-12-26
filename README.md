@@ -81,5 +81,5 @@ My Dad's thought while watching the phantom gourmet to have an easy to use app i
 
 - Include a dynamic map integration, would utilize a more interactive map (Google map integration).
 - Raiting system
-- Expand on the rating system: Create a new resource where ratings will be tied to one restaurant but will be able to be viewed by any user. Similar to reviews on a product, or sites like YELP. A restaurant would have many ratings.
+- Expand on the rating system: Create a new resource where ratings will be tied to one restaurant but will be able to be viewed by any user. Similar to reviews on a product. A restaurant would have many ratings.
 - Clean up/stream-line navigation, and route paths.
