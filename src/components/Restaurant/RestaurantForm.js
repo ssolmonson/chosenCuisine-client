@@ -10,7 +10,7 @@ const categoryData = [
   { value: 'Mexican', name: 'Mexican' },
   { value: 'Bar', name: 'Bar' },
   { value: 'Pub', name: 'Pub' },
-  { value: 'TextMex', name: 'TexMex' },
+  { value: 'TexMex', name: 'TexMex' },
   { value: 'Cafe', name: 'Cafe' },
   { value: 'Fine Dining', name: 'Fine Dining' },
   { value: 'Italian', name: 'Italian' },
