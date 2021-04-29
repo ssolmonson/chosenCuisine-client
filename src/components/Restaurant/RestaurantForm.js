@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 // Defined values for 'Food Type' to allow for consistent sorting
+// List will need manual updating for now
 const categoryData = [
   { value: 'American', name: 'American' },
   { value: 'Asian', name: 'Asian' },
